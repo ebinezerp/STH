@@ -1,0 +1,18 @@
+#group 
+{
+   display: grid;
+   grid-template-columns: auto auto auto;
+   grid-gap: 20px;
+}
+
+#group > div{
+    
+    border:1px solid black;
+}
+
+#group div:first-child
+{
+    grid-column: 1/3;
+    grid-row:1/3;
+    grid-auto-flow: dense
+}

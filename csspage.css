@@ -1,0 +1,20 @@
+a:active
+{
+    color:red;
+}
+
+ul:first{
+    list-style-type: none;
+}
+
+li:first-child
+{
+    color:red;
+}
+
+
+li:nth-last-child(n+2)
+{
+    color:blue;
+}
+

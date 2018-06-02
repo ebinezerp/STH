@@ -1,0 +1,69 @@
+#article
+{
+    animation-duration: 5s;
+    -webkit-animation-duration: 5s;
+    -o-animation-duration: 5s;
+    -moz-animation-duration: 5s;
+    animation-name: slidein;
+    -webkit-animation-name: slidein;
+    -o-animation-name: slidein;
+    -moz-animation-name: slidein;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+
+
+@keyframes slidein
+{
+    from{
+        margin-left: 200px;
+        width:100;
+    }
+    to{
+        margin-left: 600px;
+        width:150;
+        font-size: larger;
+        font-style: italic;
+    }
+}
+
+p#ani:hover
+{
+    animation-name: para;
+    animation-duration: 5s;
+}
+
+@keyframes para{
+    9%
+    {
+        color:red;
+        font-size: small;
+    }
+    20%
+    {
+        color:black;
+        font-size: medium;
+    }
+    50%
+    {
+        color:pink;
+        font-stretch: extra-condensed;
+    }
+    70%
+    {
+        color:blue;
+        font-size: larger;
+        font-weight: 700;
+    }
+    90%
+    {
+        color:brown;
+        font-size: xx-large;
+        font-stretch: narrower;
+    }
+    
+}
